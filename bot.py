@@ -24,7 +24,7 @@ from discord import app_commands
 from discord.ext import commands
 
 # ─── Configuration ───────────────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "MTUxNDE0OTEzNTUwOTQ4NzczNw.GdHwin.6QDqYIkwqkKJ6kGkM9igz8poX0THsoMnLqVfmo")
+BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 CONFIG_FILE = "verified_channels_config.json"
 
 # Required bot intents (no privileged intents needed)
